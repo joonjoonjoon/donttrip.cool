@@ -1,15 +1,60 @@
-.space-100 {  margin-top:100px; } 
-.space-75 {  margin-top:75px; } 
-.space-50 {  margin-top:50px; }
-.space-25 {  margin-top:25px; }
-.space-10 {  margin-top:10px; }
+.space-100 {  margin-top:100px; line-height: 0;} 
+.space-75 {  margin-top:75px; line-height: 0;} 
+.space-50 {  margin-top:50px; line-height: 0;}
+.space-25 {  margin-top:25px; line-height: 0;}
+.space-10 {  margin-top:10px; line-height: 0;}
+.space-5 {  margin-top:5px; line-height: 0;}
+.space-last {  margin-top:0px; line-height: 2;}
+
+.container {
+  background-color: #fcee21;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
 .biggish { font-size: 20px;}
+
 a {
   color: inherit;
-  text-decoration: none;
-  border-bottom: 1px #bbb dotted;
 }
+
+a:hover {
+  color:inherit;
+  opacity:0.7;
+}
+
+.dotted-white {
+  text-decoration: none;
+  border-bottom: 2px #fff dotted;
+}
+
+.dotted-black {
+  text-decoration: none;
+  border-bottom: 2px #000 dotted;
+}
+
+.centered-title {
+  text-align:center;
+}
+
+h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size:30px;
+  text-align:center;
+}
+
+h3 {
+  font-size:20px;
+}
+
+.red {
+  background-color: #fbb03b;
+}
+
+.darkred {
+  background-color: #ff5c6e;
+}
+
 .accordionarrow { float: right; }
 .accordionpanel {
   padding: 0 18px;
@@ -65,7 +110,8 @@ a {
 .footer
 {
   text-align: center;
-  font-size:10px;
+  font-size:20px;
+  color:white;
 }
 
 .test
@@ -76,3 +122,75 @@ a {
 {
   float:left;
 }
+
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+
+
+
+.gradientbg {
+background: #78e5e9;
+background: -moz-radial-gradient(center, ellipse cover, #78e5e9 0%, #b6c5f2 70%, #e9abf9 100%);
+background: -webkit-radial-gradient(center, ellipse cover, #78e5e9 0%,#b6c5f2 70%,#e9abf9 100%);
+background: radial-gradient(ellipse at center, #78e5e9 0%,#b6c5f2 70%,#e9abf9 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78e5e9', endColorstr='#e9abf9',GradientType=1 );
+}
+
+
+.patternbg {
+  background-attachment: fixed;
+  background-image: url("../images/UI-Pattern.png");
+    -webkit-animation: scrolling 200s linear infinite;
+    -moz-animation: scrolling 200s linear infinite;
+    -o-animation: scrolling 200s linear infinite;
+    animation: scrolling 200s linear infinite;
+}
+
+@-webkit-keyframes scrolling {
+  from{
+      background-position: 0 0;
+  }
+  to{
+      background-position: 100% 100%;
+  }
+}
+
+
+/* The animation code */
+@keyframes logo-bounce {
+    0%   {transform: rotate(-3deg); }
+    50%   {transform: rotate(3deg); }
+    100%   {transform: rotate(-3deg); }
+}
+
+/* The element to apply the animation to */
+.logo-bounce {
+    animation-name: logo-bounce;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+
+}
+
+/* Style the Image Used to Trigger the Modal */
+.popup {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.popup:hover {opacity: 0.7;}

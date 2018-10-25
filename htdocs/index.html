@@ -6,25 +6,25 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Joon?</title>
+  <title>Don't Trip! 👟👟 - Silly walking simulator for mobile</title>
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://joon.be/" />
-  <meta property="og:title" content="Joon?" />
-  <meta property="og:image" content="http://joon.be/images/joon.png" />
-  <meta name="description" content="Hi ✋! I'm Joon, an independent game designer, and this is my website!">
-  <meta name="author" content="Jonatan Van Hove">
+  <meta property="og:url" content="http://donttrip.cool/" />
+  <meta property="og:title" content="Don't Trip!" />
+  <meta property="og:image" content="http://donttrip.cool/images/logo.png" />
+  <meta name="description" content="👟👟 A silly walking simulator for mobile! Avoid junk, stomp bugs, get shoes! Get this free mobile game today!">
+  <meta name="author" content="Joon">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@joonturbo" />
-  <meta name="twitter:title" content="Joon.be - Jonatan Van Hove" />
-  <meta name="twitter:description" content="Hi ✋! I'm Joon, an independent game designer, and this is my website!" />
-  <meta name="twitter:image" content="http://joon.be/images/joon.png" />
+  <meta name="twitter:title" content="Don't Trip!" />
+  <meta name="twitter:description" content="👟👟 A silly walking simulator for mobile! Avoid junk, stomp bugs, get shoes! Get this free mobile game today!" />
+  <meta name="twitter:image" content="http://donttrip.cool/images/logo.png" />
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -32,6 +32,7 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="css/extra.css">
+  <link rel="stylesheet" href="css/modal.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -46,469 +47,224 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <section class="section1" id="home">
-    <div class="container">
-      <div class="space-25">&nbsp;</div>
+  <section class="section1 gradientbg" id="home">
+    <div class="patternbg">
+      <div class="container">
+        <div class="row">
+          <div class="two columns">
+            &nbsp;
+          </div>
+          <div class="eight columns">
+            <img class="u-max-full-width logo-bounce" alt="image by Dominik Johann (dom.ink)" title="👉 image by Dominik Johann (dom.ink)" src="images/Logo.png">
+          </div>
+          <div class="two columns">
+            &nbsp;
+          </div>
+        </div>
 
-      <div class="row">
-        <div class="four columns">
-          &nbsp;
+        <div class="row">
+          <div class="twelve columns centered-title">
+            <h1><small>👟</small> A silly walking simulator for mobile! <small>👟</small>
+              <br><small>👠</small> Avoid junk, stomp bugs, get shoes! <small>👠</small></h1>
+          </div>
         </div>
-        <div class="four columns">
-          <img class="u-max-full-width" alt="image by Dominik Johann (dom.ink)" title="👉 image by Dominik Johann (dom.ink)" src="images/joon.png">
+
+        <div class="row">
+          <div class="twelve columns biggish video-container">
+            <iframe width="inherit" height="inherit" src="https://www.youtube.com/embed/GBlu5zoYYlc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
         </div>
-        <div class="four columns">
-          &nbsp;
+
+        <div class="space-25">&nbsp;</div>
+
+        <div class="row">
+          <div class="one columns">
+            &nbsp;
+          </div>
+          <div class="five columns">
+            <a href="#">
+              <img class="u-max-full-width" src="images/appstorebadge.png">
+            </a>
+          </div>
+          <div class="five columns">
+            <a href="#">
+              <img class="u-max-full-width" src="images/googleplaybadge.png">
+            </a>
+          </div>
+          <div class="one columns">
+            &nbsp;
+          </div> 
         </div>
+
+        <div class="space-75">&nbsp;</div>
+
+        <div class="row">
+          <div class="five columns">
+            <img class="popup u-max-full-width" src="images/walking.gif">
+          </div>
+          <div class="seven columns">
+            <h2><b>Original and unique input mechanic!</b> <br>Your thumbs become feet, and you rotate the phone to pivot.</h2>
+          </div>
+        </div>
+
+        <div class="space-75">&nbsp;</div>
+
+        <div class="row">
+          <div class="seven columns">
+            <h2><b>Change shoes, change levels, go to space!</b> <br>You unlock shoes and skins, and they'll take you places*.</h2>
+            <p><small>*sadly, all places are full of junk you should avoid.</small></p>
+          </div>
+          <div class="five columns">
+            <img class="popup u-max-full-width" src="images/environments-gif-square.gif">
+          </div>
+        </div>
+
+        <div class="space-75">&nbsp;</div>
+
+        <div class="row">
+          <div class="five columns">
+            <img class="popup u-max-full-width" src="images/trippytalks.gif">
+          </div>
+          <div class="seven columns">
+            <h2><b>Meet Trippy!</b> <br>This little wise-guy will keep you company on your adventures.</h2>
+          </div>
+        </div>
+
+        <div class="space-75">&nbsp;</div>
+
+        <div class="row">
+          <div class="four columns">
+            <img class="popup u-max-full-width" src="images/share-screen.png">
+            <div class="space-10">&nbsp;</div>
+            <h3>Share <b>photos and gifs</b> of the crazy stuff you'll meet along the way. 📷 </h3>
+          </div>
+          <div class="four columns">
+            <img class="popup u-max-full-width" src="images/roombarmy.png">
+            <div class="space-10">&nbsp;</div>
+            <h3>Watch out for <b>weapon-wielding vacuum-robots</b>, they're lurking in every level, dressed for the occassion. 🔪</h3>
+          </div>
+
+          <div class="four columns">
+            <img class="popup u-max-full-width" src="images/fire-screen.png">
+            <div class="space-10">&nbsp;</div>
+            <h3>Get as far as you can, and hurry up, the fire is hot on your heels! 🔥</h3>
+          </div>
+        </div>
+
+        <div class="space-50">&nbsp;</div>
+
       </div>
-      <div class="space-25">&nbsp;</div>
 
-      <div class="row">
-        <div class="twelve columns biggish">
-          <h1>Joon?</h1>
-          <p>Hi ✋! I'm Joon, an independent game designer.</p>
-          <p>
-            <span class="emoji">👉</span><b>Jonatan Van Hove</b> is my full name
-            <br><span class="emoji">🏔</span>living in Reykjavík
-            <br><span class="emoji">🕹️</span>game designer
-            <br><span class="emoji">🤷</span>conceptual artist
-            <br><span class="emoji">🙋‍♂</span>️rock climber
-            <br><span class="emoji">🔥</span>
-              <a href="https://twitter.com/joonturbo" title="Follow me in twitter for some good tweets.">@joonturbo</a>
-            <br><span class="emoji">📮</span>
-              <a href="mailto:joon@joon.be" title="Don't hesitate to shoot me an email, I try my best to respond to everything!">joon@joon.be</a>
-            <br>
-          </p>
-          <div class="space-25">&nbsp;</div>
 
-          <a class="accordion">
-            <p><span class="emoji">⏳</span>Recently...
-              <span class="accordionarrow">⇣</span>
-            </p>
-          </a>
-          <div class="accordionpanel">
-            <ul>
-              <li>
-                <b>I'm very open to being contacted about ideas, collaborations and opportunities!</b>
-              </li>
-              <li>I co-organized
-                <a href="http://isleofgames.is/">Isle of Games 001</a>, and wrote
-                <a href="https://medium.com/@jonatan.van.hove/how-to-start-a-scene-bef6deb610d6">two</a>
-                <a href="https://medium.com/@jonatan.van.hove/isle-of-games-001-f646f6e2cc27">articles</a> about it.</li>
-              <li>I'm working on
-                <b>
-                  <a href="https://twitter.com/joonturbo/status/1002262234314301440">Don't Trip</a>
-                </b> 👟👟. #donttrip</li>
-              <li>I'm a member of the Summit Advisory board of GDC, for the
-                <a href="http://www.gdconf.com/conference/igs.html">Independent Games Summit.</a>
-              </li>
-              <li>I also organize the
-                <a href="https://www.youtube.com/watch?v=ujl0gzj-89g">Tech Toolbox</a> at GDC.</li>
-              <li>I'm running the
-                <a href="http://www.reykjavikcoworking.is/">Reykjavik Co-working Unit</a> at
-                <a href="https://idnorvk.is/">IÐNÓ</a>.</li>
-              <li>I'll be teaching Game Design & Development at
-                <a href="https://en.ru.is/">Reykjavik University</a> in spring 2019.</li>
-            </ul>
-            <small>
-              <i>Last updated on August 8, 2018</i>
-            </small>
-            <div class="space-25">&nbsp;</div>
+
+      <div class="container red">
+        <div class ="row">&nbsp;</div>
+        <div class="space-50">&nbsp;</div>
+
+        <div class="row">
+          <div class="twelve columns centered-title">
+            <h1>A game by</h1>
+            <h3><a href="https://twitter.com/joonturbo" class="dotted-black">Jonatan Van Hove (Joon)</a> - Design & Development</h3>
+            <h3><a href="https://www.artstation.com/tymus" class="dotted-black">Dorian Beaugendre</a> - 3D art</h3>
+            <h3><a href="http://www.noodlecake.com/" class="dotted-black">Noodlecake Games</a> - Publishing</h3>
+            <div class="space-50">&nbsp;</div>
+            <h1>With the help of</h1>
+            <h3><a href="http://kristianross.dk/" class="dotted-black">Kristian Ross</a> - Music & Audio</h3>
+            <h3><a href="http://egobydesign.com/" class="dotted-black">Ego By Design</a> - Graphic design & Branding</h3>
+            <h3><a href="http://www.cowabungaindustries.com/" class="dotted-black">Cowabunga Industries</a> - Trailer</h3>
+            <h3><a href="http://www.barlow-voiceover.com/" class="dotted-black">Stephen Barlow</a> - Writing</h3>
           </div>
-
-          <a class="accordion">
-            <p><span class="emoji">🕹</span> Game Design & Development
-              <span class="accordionarrow">⇣</span>
-            </p>
-          </a>
-          <div class="accordionpanel">
-
-            <p>From 2013 until 2017, I worked for
-              <a href="http://www.glitchnap.com">Glitchnap</a>, a game development studio which I co-founded with 2 others. Since 2018 I've been consulting
-              independently and working on my solo debut.</p>
-
-            <p>With Glitchnap, I designed and developed multiple commercial titles both original and client work:</p>
-            <ul>
-              <li>
-                <a href="http://glitchnap.com/press/sheet.php?p=Invert">
-                  <b>Invert</b>
-                </a> —
-                <small>
-                  🤖
-                  <a href="https://play.google.com/store/apps/details?id=com.noodlecake.invert">Android</a>
-                  🍎
-                  <a href="https://itunes.apple.com/us/app/invert-a-minimal-puzzle-game/id1220540830?ls=1&mt=8">iOS</a>
-                </small>
-              </li>
-              <li>
-                <a href="https://noodlecake.itch.io/try-harder">
-                  <b>Try Harder</b>
-                </a> —
-                <small>
-                  🤖
-                  <a href="https://play.google.com/store/apps/details?id=com.noodlecake.tryharder.free">Android</a>
-                  🍎
-                  <a href="https://itunes.apple.com/app/try-harder/id963759536?mt=8&uo=8&at=1l3vuur">iOS</a>
-                  🖥
-                  <a href="https://noodlecake.itch.io/try-harder">PC/Mac</a>
-                </small>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/watch?v=YI_mNhJWcqw">
-                  <b>Free Fur All (We Bare Bears)</b>
-                </a> —
-                <small>
-                  Commissioned by Cartoon Network — 🤖
-                  <a href="https://play.google.com/store/apps/details?id=com.turner.freefurall&hl=en">Android</a>
-                  🍎
-                  <a href="https://itunes.apple.com/us/app/free-fur-all-we-bare-bears-minigame-collection/id994933845?mt=8">iOS</a>
-                </small>
-              </li>
-              <li>
-                <a href="https://glitchnap.itch.io/lazaknitez">
-                  <b>LAZA KNITEZ!!</b>
-                </a> —
-                <small>🖥️
-                  <a href="https://glitchnap.itch.io/lazaknitez">PC/Mac</a>
-                </small>
-              </li>
-              <li>
-                <a href="http://www.sentree-game.com/">
-                  <b>Sentree</b>
-                </a> —
-                <small>
-                  <i>events only</i>
-                </small>
-              </li>
-            </ul>
-
-            <p>Personal projects and collaborations:</p>
-            <ul>
-              <li>
-                <a href="https://joonturbo.itch.io/nuts">NUTS</a>
-                <small>🐿</small> —
-                <small>🖥️
-                  <a href="https://joonturbo.itch.io/nuts">PC/Mac</a>
-                </small>
-              </li>
-              <li>
-                <a href="http://joon.be/portfolio/go-nuts/">GO NUTS!!</a> —
-                <small>
-                  <i>events only</i>
-                </small>
-              </li>
-              <li>
-                <a href="http://joon.be/portfolio/press-x-to-give-up/">Press X To Give Up</a> —
-                <small>🖥️
-                  <a href="http://joon.be/portfolio/press-x-to-give-up/">PC/Mac</a>
-                </small>
-              </li>
-            </ul>
-            <p>Game jams and small projects:</p>
-            <ul>
-              <li>
-                <a href="http://joon.be/portfolio/trainfinity/">Trainfinity</a>
-              </li>
-              <li>
-                <a href="http://joon.be/portfolio/super-jake-snake/">Super Jake Snake</a>
-              </li>
-              <li>
-                <a href="https://joonturbo.itch.io/tractoregg">Tractor egg</a>
-              </li>
-            </ul>
-            <p>And also</p>
-            <ul>
-              <li>🎓 I have a MSc in Game Design & Analysis from the
-                <a href="https://www.itu.dk/">IT-University in Copenhagen</a>
-              </li>
-              <li>💅 I am credited as a contributor to <i>game feel</i> on <a href="http://www.gonnergame.com/">Gonner</a></li>
-              <li>I did game design consulting early on for <a href="http://www.cosmictopsecretgame.com/">Cosmic Top Secret</a></li>
-            </ul>
-          </div>
-
-          <a class="accordion">
-            <p><span class="emoji">🔨</span>Installation Art
-              <span class="accordionarrow">⇣</span>
-            </p>
-          </a>
-          <div class="accordionpanel">
-            <p>Personal projects and collaborations:</p>
-            <ul>
-              <li>
-                <a href="http://joon.be/portfolio/canabalt-100/">Canabalt 100p</a> 🎹 </li>
-              <li>
-                <a href="https://cargocollective.com/joonjoon/Restless-Spirit-Projector">Restless Spirit Projector</a>
-              </li>
-              <li>
-                <a href="https://cargocollective.com/joonjoon/Knife-To-Meet-You">Knife to meet you</a> 🔪</li>
-              <li>
-                <a href="https://cargocollective.com/joonjoon/Boulevard-Descat">Boulevard Descat</a>
-              </li>
-              <li>
-                <a href="https://cargocollective.com/joonjoon/Mitt-Rowdy">Mitt Rowdy</a> 🧤</li>
-            </ul>
-          </div>
-
-
-          <a class="accordion">
-            <p><span class="emoji">🗓️</span>Events
-              <span class="accordionarrow">⇣</span>
-            </p>
-          </a>
-          <div class="accordionpanel">
-
-            <p> I co-founded Isle of Games in Iceland, and we've organized a few events.</p>
-            <ul>
-              <li>Art + Games workshop</li>
-              <li>Isle of Games 001</li>
-            </ul>
-
-            <p> I was one of the core organizers of the Screenshake festival, from 2013 until 2017.</p>
-            <ul>
-              <li>Screenshake 2015 —
-                <small>
-                  💰
-                  <a href="https://www.indiegogo.com/projects/screenshake-2015-indie-game-festival/pies">Crowdfunding</a>
-                  🎬
-                  <a href="https://www.youtube.com/watch?v=H8Qo7z5vJWw">Aftermovie</a>
-                </small>
-              </li>
-              <li>Screenshake 2016 —
-                <small>
-                  💰
-                  <a href="https://www.indiegogo.com/projects/screenshake-2016-indie-game-festival-art-party/pies">Crowdfunding</a>
-                  🎬
-                  <a href="https://www.youtube.com/watch?v=UMCVkMNzYeI">Aftermovie</a>
-                </small>
-              </li>
-              <li>Screenshake 2017 —
-                <small>
-                  <i>Aftermovie in the making</i>
-                </small>
-              </li>
-            </ul>
-
-            <p> And also</p>
-            <ul>
-              <li>Since 2017, I've been a member of the Summit Advisory board of GDC, for the
-                <a href="http://www.gdconf.com/conference/igs.html">Independent Games Summit.</a>
-              </li>
-              <li>I was an active member of the
-                <a href="http://www.copenhagengamecollective.org/">Copenhagen Game Collective</a>, from 2012 until 2017 where I mostly worked on the Nordic Game Indie Night
-                contest and showcase (now Yonderplay).</li>
-              <li>A Maze. 2014 inspired me a lot and I wrote a <a href="http://joonturbo.tumblr.com/post/83407352504/i-am-home">blog post</a> about it.
-            </ul>
-
-          </div>
-
-
-          <a class="accordion">
-            <p><span class="emoji">🎙️</span>Talks & Workshops
-              <span class="accordionarrow">⇣</span>
-            </p>
-          </a>
-          <div class="accordionpanel nobullets">
-            <p>🎓 Since 2017, I teach Game Design & Development at
-              <a href="https://en.ru.is/">Reykjavik University</a>.</p>
-
-            <p>💬 Talks —
-              <small>
-                <i>Where I try to get a point across</i>
-              </small>
-            </p>
-            <ul>
-              <li>
-                <a href="https://medium.com/@jonatan.van.hove/how-to-start-a-scene-bef6deb610d6">ART + GAMES</a>
-                <ul>
-                  <li>2018, Isle of Games workshop, Reykjavík, IS</li>
-                </ul>
-              </li>
-
-              <li>
-                <a href="https://www.youtube.com/watch?v=ymp7bFwh7OQ">TEDx: Breaking the game</a>
-                <ul>
-                  <li>2017, TEDx: Reykjavik, Reykjavík, IS</li>
-                </ul>
-              </li>
-
-              <li>The Role of Games in Society
-                <ul>
-                  <li>2016, Icelandic Games Industry meetup, Reykjavík, IS</li>
-                  <li>2016, The Travelling Embassy of Rockall, Reykjavík, IS</li>
-                  <li>2016, (abridged), A-MAZE festival, Johannesburg, SA</li>
-                </ul>
-              </li>
-
-              <li>Transgressive play (Pecha Kucha)
-                <ul>
-                  <li>2015, Spilbar, Copenhagen, DK</li>
-                  <li>2015, A-MAZE festival, Johannesburg, SA</li>
-                </ul>
-              </li>
-
-              <li>The Portal Goes Both Ways
-                <ul>
-                  <li>2014, w00t, Copenhagen, DK</li>
-                </ul>
-              </li>
-
-              <li>The Artist is Present Speedrun
-                <ul>
-                  <li>2014, A-MAZE festival, Berlin, DE</li>
-                </ul>
-              </li>
-
-              <li>Pop-Up Arcade: Postmortems on Indie Arcades and Events
-                <ul>
-                  <li>2013, GDCE, Cologne, DE</li>
-                </ul>
-              </li>
-
-            </ul>
-
-            <p>👨‍🏫 Lectures —
-              <small>
-                <i>Where I mostly talk about something I learned or did</i>
-              </small>
-            </p>
-            <ul>
-              <li>How I got started in games
-                <ul>
-                  <li>2016, Icelandic Games Industry meetup, Reykjavík, IS</li>
-                  <li>2016, The Travelling Embassy of Rockall, Reykjavík, IS</li>
-                  <li>2016, (abridged), A-MAZE festival, Johannesburg, SA</li>
-                  <li>2014, Spilbar Aalborg, Aalborg, DK</li>
-                  <li>2013, Bermuda Kickoff, Aalborg, DK</li>
-                </ul>
-              </li>
-
-              <li>Local Multiplayer games
-                <ul>
-                  <li>2014, JOIN, Berlin, DE</li>
-                  <li>2014, Select Start Play, Viborg, DK</li>
-                </ul>
-              </li>
-
-              <li>Custom controllers
-                <ul>
-                  <li>2014, Zoo Machines, Lille, FR</li>
-                </ul>
-              </li>
-            </ul>
-
-            <p>🔧 Workshops</p>
-            <ul>
-              <li><a href="http://joon.be/portfolio/burn-the-keyboard/">Burn The Keyboard</a>
-                <ul>
-                  <li>2017, Creative Coast Festival, Karlshamn, SE</li>
-                  <li>2017, Nordic Game Jam, Copenhagen, DK</li>
-                  <li>2016, Indiecade Europe, Paris, FR</li>
-                  <li>2016, 2015, 2014 A-MAZE festival, Johannesburg, SA</li>
-                  <li>2015, GLASS: GameLab Summer School CRI, Paris, FR</li>
-                  <li>2015, Friday Late @ V&A, Victoria and Albert Museum, London, UK</li>
-                  <li>2014, Playful Arts Festival, Den Bosch, NL</li>
-                  <li>2014, A-MAZE festival, Berlin, DE</li>
-                </ul>
-              </li>
-            </ul>
-
-            <p>🎤 I've also hosted some conferences and showcases.</p>
-            <ul>
-              <li>
-                <a href="https://www.youtube.com/watch?v=zQ9Jq3CpFXE">Masterclass With Colin & Sarah Northway</a>
-                <ul>
-                  <li>2018 A MAZE., Berlin, DE</li>
-                </ul>
-              </li>
-              <li>IndieCade Europe Award Show <small>(with the Copenhagen Game Collective)</small>
-                <ul>
-                  <li>2016, 2017 IndieCade Europe, Paris, FR</li>
-                </ul>
-              </li>
-              <li>Tech Toolbox
-                <ul>
-                  <li>2015-2017 GDC, San Francisco, US</li>
-                </ul>
-              </li>
-              <li>European Innovative Games Showcase
-                <ul>
-                  <li>2014-2016 GDC Europe, Cologne, DE</li>
-                </ul>
-              </li>
-              <li>Lyst Summit
-                <ul>
-                  <li>2015, Helsinki, FI</li>
-                </ul>
-              </li>
-              <li>Nordic Game Indie Night
-                <ul>
-                  <li>2015, 2016 Malmö, SE</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-
-
-          <div class="space-100">&nbsp;</div>
-
-          <div class="row">
-            <div class="four columns">
-              &nbsp;
-            </div>
-            <div class="four columns">
-              <img class="u-max-full-width" alt="a hack job" title="👉 another excellent dom.ink hack job" src="images/hack.png">
-            </div>
-            <div class="four columns">
-              &nbsp;
-            </div>
-          </div>
-
-          <div class="space-50">&nbsp;</div>
-
-          <div class="row">
-            <div class="four columns">
-              &nbsp;
-            </div>
-            <div class="four columns">
-              <img class="u-max-full-width" alt="my face" title="👉 it's my face" src="images/joon2.jpg">
-            </div>
-            <div class="four columns">
-              &nbsp;
-            </div>
-          </div>
-          <div class="space-10">&nbsp;</div>
-          <div class="footer">
-            <p>Title image by
-              <a href="http://dom.ink">dom.ink</a>
-              <br>Website based by
-              <a href="https://github.com/dhg/Skeleton">Skeleton</a>, design by me</p>
-          </div>
-
         </div>
+        <div class="space-75">&nbsp;</div>
       </div>
-      <div class="space-25">&nbsp;</div>
+
+      <div class="container darkred">
+        <div class="row">
+          <div class="one columns">
+            &nbsp;
+          </div>
+          <div class="four columns">
+            <a href="http://www.noodlecake.com/">
+              <img class="u-max-full-width" src="images/nc-logo.png">
+            </a>
+          </div>
+          <div class="two columns">
+            &nbsp;
+          </div>
+          <div class="four columns">
+            <a href="http://joon.be/">
+              <img class="u-max-full-width" src="images/joon-logo.png">
+            </a>
+          </div>
+          <div class="one columns">
+            &nbsp;
+          </div> 
+        </div>
+
+        <div class="footer">
+          <p>For support, contact <a class="dotted-white" href="mailto:support@noodlecake.com?body=Game%20Title%3A%20Don%27t%20Trip!%0APlatform%3A%20(iOS%2FAndroid%2FmacOS%2Fetc.)%0AAndroid%2FiOS%20Version%3A%20%0ADownload%20Source%3A%20(Apple%20App%20Store%2FGoogle%20Play%2FAmazon%2Fetc.)%0ADevice%20Information%3A%20%0ADescription%20of%20Problem%3A%0A">
+            Noodlecake Games</a><br>
+          For anything else, contact <a class="dotted-white" href="mailto:joon@joon.be">
+            joon</a></p>
+        </div>
+
+
+
+        <div class="space-last">&nbsp;</div>
+      </div>
     </div>
   </section>
+
+<!-- Trigger the Modal -->
+
+
+  <div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01">
+
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+  </div>
 
   <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <script>
-    // Accordion stuff
-    var acc = document.getElementsByClassName("accordion");
-    var i;
+    // Get the modal
+    var modal = document.getElementById('myModal');
 
-    for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function () {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.maxHeight) {
-          panel.style.maxHeight = null;
-        } else {
-          panel.style.maxHeight = panel.scrollHeight + "px";
-        }
-      });
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgs = document.getElementsByClassName("popup");
+
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+
+    var i;
+    for (i = 0; i < imgs.length; i++) {
+      let src = imgs[i].src;
+      let alt = imgs[i].alt;
+      imgs[i].onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = src;
+          captionText.innerHTML = alt;
+      }
     }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }    
+
+    modal.onclick = function() { 
+      modal.style.display = "none";
+    }    
   </script>
 
 </body>
