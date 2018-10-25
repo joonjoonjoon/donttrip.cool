@@ -8,9 +8,17 @@
 
 .container {
   background-color: #fcee21;
+}
+
+.row {
   padding-left: 30px;
   padding-right: 30px;
 }
+
+.nopad{
+  padding: 0;
+}
+
 
 .biggish { font-size: 20px;}
 
@@ -39,7 +47,7 @@ a:hover {
 
 h1 {
   font-family: 'Fredoka One', cursive;
-  font-size:30px;
+  font-size:35px;
   text-align:center;
 }
 
@@ -155,10 +163,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78e5e9', end
 .patternbg {
   background-attachment: fixed;
   background-image: url("../images/UI-Pattern.png");
-    -webkit-animation: scrolling 200s linear infinite;
-    -moz-animation: scrolling 200s linear infinite;
-    -o-animation: scrolling 200s linear infinite;
-    animation: scrolling 200s linear infinite;
+    -webkit-animation: scrolling 100s linear infinite;
+    -moz-animation: scrolling 100s linear infinite;
+    -o-animation: scrolling 100s linear infinite;
+    animation: scrolling 100s linear infinite;
 }
 
 @-webkit-keyframes scrolling {
@@ -166,7 +174,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78e5e9', end
       background-position: 0 0;
   }
   to{
-      background-position: 100% 100%;
+      background-position: 100% 200%;
   }
 }
 
@@ -188,7 +196,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78e5e9', end
 
 /* Style the Image Used to Trigger the Modal */
 .popup {
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     transition: 0.3s;
 }
