@@ -63,6 +63,22 @@ h3 {
   background-color: #ffd505;
 }
 
+.pink {
+  background-color: #80ffd7;
+}
+
+.exclusive{
+  text-align:center;
+  
+}
+
+.exclusive img{
+  width:250px;
+  margin-left:25px;
+  margin-right:25px;
+}
+
+
 .darkred {
   background-color: #ff5c6e;
 }
@@ -185,15 +201,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78e5e9', end
 
 /* The animation code */
 @keyframes logo-bounce {
-    0%   {transform: rotate(-3deg); }
-    50%   {transform: rotate(3deg); }
-    100%   {transform: rotate(-3deg); }
+    0%   {transform: rotate(-2deg); }
+    50%   {transform: rotate(2deg); }
+    100%   {transform: rotate(-2deg); }
 }
 
 /* The element to apply the animation to */
 .logo-bounce {
     animation-name: logo-bounce;
-    animation-duration: 4s;
+    animation-duration: 8s;
     animation-iteration-count:infinite;
 
 }
