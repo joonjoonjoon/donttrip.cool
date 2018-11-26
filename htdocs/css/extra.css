@@ -187,6 +187,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78e5e9', end
     -moz-animation: scrolling 100s linear infinite;
     -o-animation: scrolling 100s linear infinite;
     animation: scrolling 100s linear infinite;
+  transform: translateZ(0);
+
 }
 
 @-webkit-keyframes scrolling {
