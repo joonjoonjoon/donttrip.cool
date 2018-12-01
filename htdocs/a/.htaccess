@@ -1,0 +1,2 @@
+#Rewrite everything to https
+Redirect /a https://play.google.com/store/apps/details?id=com.noodlecake.smoof.trip
