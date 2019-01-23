@@ -224,3 +224,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78e5e9', end
 }
 
 .popup:hover {opacity: 0.7;}
+
+.quotes h3 { 
+  text-align: center; 
+  margin-bottom:5px;
+}
+.quotes h4 { 
+  text-align: right; 
+  font-style: italic;
+  font-size: 16px;
+}
