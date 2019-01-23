@@ -226,7 +226,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78e5e9', end
 .popup:hover {opacity: 0.7;}
 
 .quotes h3 { 
-  text-align: center; 
+  text-align: left; 
   margin-bottom:5px;
 }
 .quotes h4 { 
@@ -234,3 +234,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78e5e9', end
   font-style: italic;
   font-size: 16px;
 }
+
+.quote-block {
+  background-color:#d1ffc1;
+  padding:10px;
+  padding-left:25px;
+  padding-right:25px;
+  border-radius: 10px;
+}
+
+.quote-block:nth-of-type(even) {
+  background-color:#80ffd7;
+}
+
